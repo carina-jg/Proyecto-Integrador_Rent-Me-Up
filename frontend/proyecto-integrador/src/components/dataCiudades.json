@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "nombre": "Cali",
+        "pais": "Colombia"
+    },
+    {
+        "id": 2,
+        "nombre": "Buenos Aires",
+        "pais": "Argentina"
+    },
+    {
+        "id": 3,
+        "nombre": "Caracas",
+        "pais": "Venezuela"
+    },
+    {
+        "id": 4,
+        "nombre": "CDMX",
+        "pais": "México"
+    },
+    {
+        "id": 5,
+        "nombre": "Santiago",
+        "pais": "Chile"
+    },
+    {
+        "id": 6,
+        "nombre": "Montevideo",
+        "pais": "Uruguay"
+    },
+    {
+        "id": 7,
+        "nombre": "Brasilia",
+        "pais": "Brasil"
+    },
+    {
+        "id": 8,
+        "nombre": "Sao Paulo",
+        "pais": "Brasil"
+    },
+    {
+        "id": 9,
+        "nombre": "Lima",
+        "pais": "Perú"
+    },
+    {
+        "id": 10,
+        "nombre": "Bogotá",
+        "pais": "Colombia"
+    }
+]

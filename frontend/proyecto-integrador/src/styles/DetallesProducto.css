@@ -1,0 +1,261 @@
+/* Bloque Header */
+
+.BloqueHeader {
+  display: flex;
+  background-color: #f5c6aa;
+  margin: 0;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  top: 90px;
+}
+.CategoriaDelProducto {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.TituloDelProducto {
+  left: 15px;
+  top: 45px;
+  position: absolute;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 45px;
+}
+
+.arrow {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  cursor: pointer;
+  width: 30px;
+}
+
+/* Bloque Ubicacion */
+
+.BloqueUbicacion {
+  background-color: whitesmoke;
+  position: relative;
+  height: 60px;
+  width: 100%;
+  top: 90px;
+}
+
+.DatosUbi {
+  position: absolute;
+  left: 35px;
+  top: 17px;
+}
+
+.Distancia {
+  position: absolute;
+  left: 35px;
+  bottom: 8px;
+}
+
+@media screen and (max-width: 420px) {
+  .Distancia {
+    display: none;
+  }
+}
+
+.Ubi {
+  position: absolute;
+  color: #f5c6aa;
+  left: 15px;
+  top: 17px;
+}
+
+/* Compartir Favoritos */
+
+.IconComp {
+  top: 110px;
+  position: relative;
+  left: 43px;
+  color: #f5c6aa;
+  width: 30px;
+}
+
+.IconFav {
+  top: 83px;
+  position: relative;
+  left: 80px;
+  color: #f5c6aa;
+  width: 30px;
+}
+
+/* Carrusel */
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+}
+
+.image-gallery {
+  display: grid;
+  grid-gap: 5px;
+  position: relative;
+  top: 5em;
+}
+
+.image-gallery img {
+  cursor: pointer;
+  height: 227px;
+  width: 341px;
+  position: static;
+}
+
+.three-cols-gallery {
+  grid-template-columns: repeat(2, 341px);
+}
+.three-cols-gallery > .gallery-item:nth-of-type(n + 5) {
+  display: none;
+}
+
+.three-cols-gallery > .gallery-item:nth-of-type(n + 4) {
+  position: relative;
+}
+.three-cols-gallery > .gallery-item:nth-of-type(n + 4)::after {
+  content: attr(data-see-more) " ";
+  color: white;
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  inset: 0;
+  /* z-index: 2; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 341px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 778px) {
+  /* For mobile phones: */
+
+  .three-cols-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Bloque Descripcion */
+
+.BloqueDescripcion {
+  position: relative;
+  padding-left: 43px;
+  top: 110px;
+  margin-bottom: 50px;
+  padding-bottom: 60px;
+  width: 90%;
+}
+
+.TextoDeDescripcion {
+  position: relative;
+  top: 25px;
+  width: 90%;
+}
+
+/* Bloque Caracteristicas */
+
+.TituloC {
+  position: relative;
+  top: 50px;
+  padding-left: 43px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #fd866e;
+}
+
+.BloqueDeCaracteristicas {
+  padding: 30px 20px;
+  margin: 30px 0;
+  top: 50px;
+  left: 43px;
+  width: 80%;
+  /* height: 150px; */
+}
+
+.caracteristicas {
+  position: relative;
+  width: 100%;
+  color: #172727;
+  /* display: flex;
+  align-items: flex-end; */
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+.listaCaracteristicas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
+
+.itemCaracteristica {
+  padding: 10px;
+}
+
+.iconosC {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 778px) {
+  .listaCaracteristicas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .listaCaracteristicas {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 90px;
+  }
+}
+
+/* Bloque de Politicas */
+
+.TituloP {
+  top: 100px;
+  margin-top: 30px;
+  padding-left: 43px;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #fd866e;
+}
+
+.BloqueDePoliticas {
+  position: relative;
+  margin-top: 30px;
+  padding-left: 43px;
+  padding-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 90%;
+}
+
+.politicas {
+  margin-bottom: 26px;
+}
+
+.listaPoliticas {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 778px) {
+  .BloqueDePoliticas {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .BloqueDePoliticas {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

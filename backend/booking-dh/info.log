@@ -1,0 +1,370 @@
+[2022-09-12 21:52:57] [ INFO ] [CategoryService:48] The category with the id 4 was successfully deleted.
+[2022-09-12 21:53:18] [ INFO ] [CategoryService:48] The category with the id 3 was successfully deleted.
+[2022-09-12 21:54:07] [ INFO ] [CountryService:48] The country with the id 1 was successfully deleted.
+[2022-09-12 21:59:51] [ INFO ] [CityService:48] The city with the id 2 was successfully deleted.
+[2022-09-12 22:01:24] [ INFO ] [ProductService:66] The product with the id 2 was successfully deleted.
+[2022-09-12 22:02:08] [ INFO ] [CharacteristicService:48] The characteristic with the id 1 was successfully deleted.
+[2022-09-12 22:03:18] [ INFO ] [CharacteristicXProductService:48] The product characteristic with the id 1 was successfully deleted.
+[2022-09-12 22:03:55] [ INFO ] [ImageService:48] The image with the id 1 was successfully deleted.
+[2022-09-12 22:04:36] [ INFO ] [PolicyTypeService:48] The policy type with the id 2 was successfully deleted.
+[2022-09-12 22:05:24] [ INFO ] [PolicyService:48] The policy with the id 1 was successfully deleted.
+[2022-09-12 22:06:11] [ INFO ] [PolicyXProductService:48] The product policy with the id 1 was successfully deleted.
+[2022-09-12 22:18:01] [ ERROR] [GlobalExceptionHandler:17] The id 40 does not correspond to any current category.
+[2022-09-12 22:18:18] [ ERROR] [GlobalExceptionHandler:17] The id 54 does not correspond to any current category.
+[2022-09-12 22:30:05] [ ERROR] [GlobalExceptionHandler:16] The id 9 does not correspond to any current characteristic.
+[2022-09-13 15:02:49] [ ERROR] [GlobalExceptionHandler:28] No value present
+<<<<<<< HEAD
+[2022-09-13 18:45:04] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-13 18:45:25] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-13 18:45:55] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-13 19:04:54] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-13 19:05:27] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-13 19:06:37] [ ERROR] [GlobalExceptionHandler:28] Request method 'GET' not supported
+[2022-09-13 23:36:39] [ ERROR] [GlobalExceptionHandler:28] No value present
+[2022-09-15 10:21:26] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-15 10:22:29] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-15 10:23:54] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-15 10:26:12] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-15 12:31:54] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+=======
+[2022-09-13 20:50:35] [ ERROR] [GlobalExceptionHandler:28] Request method 'GET' not supported
+[2022-09-13 21:16:46] [ ERROR] [GlobalExceptionHandler:28] Cannot invoke "Object.equals(Object)" because the return value of "com.booking.dh.security.model.BookingUser.getRole()" is null
+[2022-09-13 22:22:55] [ ERROR] [GlobalExceptionHandler:22] Id must be 1 or 2
+[2022-09-13 22:37:42] [ ERROR] [GlobalExceptionHandler:16] The id 4 does not correspond to any current category.
+[2022-09-13 22:37:42] [ ERROR] [GlobalExceptionHandler:16] The id 4 does not correspond to any current category.
+[2022-09-13 22:37:42] [ ERROR] [GlobalExceptionHandler:16] The id 3 does not correspond to any current category.
+[2022-09-13 22:37:42] [ ERROR] [GlobalExceptionHandler:16] The id 3 does not correspond to any current category.
+[2022-09-13 22:37:43] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current country.
+[2022-09-13 22:37:43] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current country.
+[2022-09-13 22:37:43] [ ERROR] [GlobalExceptionHandler:16] The id 2 does not correspond to any current city.
+[2022-09-13 22:37:43] [ ERROR] [GlobalExceptionHandler:16] The id 2 does not correspond to any current city.
+[2022-09-13 22:37:44] [ ERROR] [GlobalExceptionHandler:16] The id 2 does not correspond to any current product.
+[2022-09-13 22:37:44] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current characteristic.
+[2022-09-13 22:37:44] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current characteristic.
+[2022-09-13 22:37:45] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current product characteristic.
+[2022-09-13 22:37:45] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current product characteristic.
+[2022-09-13 22:37:45] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current image.
+[2022-09-13 22:37:45] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current image.
+[2022-09-13 22:37:46] [ ERROR] [GlobalExceptionHandler:16] The id 2 does not correspond to any current policy type.
+[2022-09-13 22:37:46] [ ERROR] [GlobalExceptionHandler:16] The id 2 does not correspond to any current policy type.
+[2022-09-13 22:37:46] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current policy.
+[2022-09-13 22:37:46] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current policy.
+[2022-09-13 22:37:46] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current product policy.
+[2022-09-13 22:37:46] [ ERROR] [GlobalExceptionHandler:16] The id 1 does not correspond to any current product policy.
+[2022-09-13 22:52:53] [ ERROR] [GlobalExceptionHandler:22] Role id must be 1 or 2
+[2022-09-13 23:24:28] [ ERROR] [GlobalExceptionHandler:22] Role id must be 1 or 2
+[2022-09-13 23:38:09] [ ERROR] [GlobalExceptionHandler:28] Cannot invoke "com.booking.dh.security.model.Role.getId()" because the return value of "com.booking.dh.security.model.BookingUser.getRole()" is null
+[2022-09-13 23:41:44] [ ERROR] [GlobalExceptionHandler:28] Cannot invoke "com.booking.dh.security.model.Role.getId()" because the return value of "com.booking.dh.security.model.BookingUser.getRole()" is null
+[2022-09-14 15:39:38] [ ERROR] [GlobalExceptionHandler:22] Role id must be 1 or 2
+[2022-09-14 20:57:57] [ ERROR] [GlobalExceptionHandler:16] The id 2 does not correspond to any current product.
+[2022-09-14 21:38:05] [ ERROR] [GlobalExceptionHandler:28] Request method 'POST' not supported
+[2022-09-14 21:38:20] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-14 21:38:42] [ ERROR] [GlobalExceptionHandler:28] Request method 'POST' not supported
+[2022-09-14 21:39:45] [ ERROR] [GlobalExceptionHandler:16] Product id 2 does not correspond to any current booking.
+[2022-09-14 21:40:13] [ ERROR] [GlobalExceptionHandler:16] User id 1 does not correspond to any current booking.
+[2022-09-14 21:40:36] [ ERROR] [GlobalExceptionHandler:16] Booking does not exist.
+[2022-09-14 21:40:48] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-14 21:41:14] [ INFO ] [BookingService:95] The booking with id 1 has been successfully deleted.
+[2022-09-14 21:41:19] [ ERROR] [GlobalExceptionHandler:28] Request method 'DELETE' not supported
+<<<<<<< HEAD
+>>>>>>> development
+=======
+[2022-09-15 22:19:51] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-15 22:20:50] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-15 22:21:06] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-15 22:55:21] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 22:56:34] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-15 22:57:05] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 22:57:14] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 22:59:32] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 23:02:17] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 23:04:06] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 23:04:42] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 23:07:17] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-15 23:07:38] [ ERROR] [GlobalExceptionHandler:28] Request method 'PUT' not supported
+[2022-09-15 23:07:51] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-15 23:08:13] [ INFO ] [BookingService:95] The booking with id 5 has been successfully deleted.
+[2022-09-15 23:08:27] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 23:09:04] [ INFO ] [BookingService:95] The booking with id 4 has been successfully deleted.
+[2022-09-15 23:09:33] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-15 23:10:07] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-15 23:10:14] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-15 23:11:43] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-15 23:13:20] [ ERROR] [GlobalExceptionHandler:28] Request method 'PUT' not supported
+[2022-09-15 23:13:56] [ INFO ] [CityService:48] The city with id 5 has been successfully deleted.
+[2022-09-15 23:16:47] [ ERROR] [JwtEntryPoint:21] Fail method commence
+<<<<<<< HEAD
+[2022-09-16 22:25:41] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.QueryException: JPA-style positional param was not an integral ordinal; nested exception is java.lang.IllegalArgumentException: org.hibernate.QueryException: JPA-style positional param was not an integral ordinal
+[2022-09-18 15:54:23] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-18 15:54:24] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-18 15:54:24] [ ERROR] [JwtEntryPoint:21] Fail method commence
+=======
+>>>>>>> development
+<<<<<<< HEAD
+[2022-09-17 18:42:10] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:42:10] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:42:10] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:42:10] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:42:21] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:42:21] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:42:21] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:52] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:52] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:52] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:52] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:57] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:57] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:45:57] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:46:42] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:48:37] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:48:37] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:48:37] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:48:37] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:48:57] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:03] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:03] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:03] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:05] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:11] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:11] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:11] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:49:29] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:50:04] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:50:04] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 18:50:04] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-17 19:30:23] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:30:24] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:31:20] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:31:35] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:32:48] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:32:48] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:33:59] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:05] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:05] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:19] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:19] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:25] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:25] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:28] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:36:28] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:40:59] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:40:59] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:41:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:41:15] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:11] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:22] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:46] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:48] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:50] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:56] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:57] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:43:58] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:01] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:05] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:08] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:10] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:16] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:17] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:22] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:23] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:24] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:25] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:28] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:32] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:36] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:38] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:42] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:44] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:45] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:47] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:49] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:53] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:54] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:55] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:56] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:58] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:44:59] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:45:01] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:45:04] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:45:07] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:45:09] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:45:22] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:45:22] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:46:14] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:46:24] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:46:24] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:46:34] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:46:34] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:48:49] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:48:49] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:16] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:20] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:24] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:27] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:32] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:32] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:43] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:49:43] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:50:07] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:50:14] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:51:31] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:51:33] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:51:42] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:51:52] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:54:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:54:13] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:54:31] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:54:31] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:58:04] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:58:31] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+[2022-09-17 19:59:58] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 19:59:58] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:00:58] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:01:12] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:01:12] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:01:21] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:01:21] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:02:20] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:06:51] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 20:06:51] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 21:38:38] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-17 21:38:38] [ ERROR] [GlobalExceptionHandler:28] Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: ":id"
+[2022-09-18 21:38:23] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-18 21:59:47] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-18 22:01:03] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-18 22:43:32] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-18 22:43:32] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.Booking.bookingUser -> com.booking.dh.security.model.BookingUser; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.Booking.bookingUser -> com.booking.dh.security.model.BookingUser
+[2022-09-18 22:44:57] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-18 22:46:43] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-18 22:48:39] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 10:17:14] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:18:05] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:18:34] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:19:23] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:20:26] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:23:14] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:27:19] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:29:01] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 10:29:43] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 10:29:53] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 10:31:21] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 10:32:29] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 10:36:36] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:37:42] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 10:40:02] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 10:40:37] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 10:58:21] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 11:11:26] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 11:15:00] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-19 14:59:02] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 15:03:54] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 15:07:35] [ INFO ] [BookingService:35] Booking successfully saved.
+=======
+>>>>>>> 09c676d4680a425643b75c45c5b0d1054cce6496
+<<<<<<< HEAD
+[2022-09-19 16:13:20] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-19 16:36:28] [ ERROR] [GlobalExceptionHandler:28] No value present
+[2022-09-19 16:54:54] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-19 16:56:54] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-19 17:06:40] [ INFO ] [CountryService:48] The country with id 1 has been successfully deleted.
+[2022-09-19 17:16:24] [ INFO ] [CityService:48] The city with id 2 has been successfully deleted.
+[2022-09-19 18:22:22] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-19 21:25:12] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-19 21:26:37] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-19 21:26:46] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 21:26:46] [ ERROR] [GlobalExceptionHandler:28] Could not write JSON: Cannot invoke "com.booking.dh.security.model.Role.getName()" because "this.role" is null; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Cannot invoke "com.booking.dh.security.model.Role.getName()" because "this.role" is null (through reference chain: com.booking.dh.model.Booking["bookingUser"]->com.booking.dh.security.model.BookingUser["authorities"])
+[2022-09-19 21:31:16] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 21:31:28] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 21:31:35] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 21:32:13] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 21:33:05] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 21:33:05] [ ERROR] [GlobalExceptionHandler:28] Could not write JSON: Cannot invoke "com.booking.dh.security.model.Role.getName()" because "this.role" is null; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Cannot invoke "com.booking.dh.security.model.Role.getName()" because "this.role" is null (through reference chain: com.booking.dh.model.Booking["bookingUser"]->com.booking.dh.security.model.BookingUser["authorities"])
+[2022-09-19 21:33:36] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 21:33:47] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 21:34:39] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-19 21:35:54] [ ERROR] [GlobalExceptionHandler:22] Check-in date cannot be earlier than today.
+[2022-09-19 21:36:03] [ INFO ] [BookingService:35] Booking successfully saved.
+=======
+>>>>>>> development
+<<<<<<< HEAD
+[2022-09-21 12:32:04] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-21 12:33:29] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-21 14:35:10] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product
+[2022-09-21 14:37:26] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product
+[2022-09-21 14:37:50] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product
+[2022-09-21 14:38:46] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product
+[2022-09-21 14:53:59] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.CharacteristicXProduct.product -> com.booking.dh.model.Product
+[2022-09-21 15:28:42] [ ERROR] [JwtEntryPoint:21] Fail method commence
+[2022-09-21 15:48:14] [ ERROR] [GlobalExceptionHandler:28] org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.PolicyXProduct.policy -> com.booking.dh.model.Policy; nested exception is java.lang.IllegalStateException: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : com.booking.dh.model.PolicyXProduct.policy -> com.booking.dh.model.Policy
+[2022-09-21 16:21:46] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+[2022-09-21 17:04:18] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-21 17:04:35] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-21 17:05:23] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+[2022-09-21 17:06:01] [ ERROR] [GlobalExceptionHandler:28] Unable to serialize claims object to json.
+=======
+>>>>>>> 67fa2d9367aea122352c4bac689751e436eaff85
+[2022-09-19 23:07:34] [ ERROR] [GlobalExceptionHandler:22] This product is not available between selected dates.
+[2022-09-19 23:07:49] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:14:00] [ INFO ] [CountryService:48] The country with id 1 has been successfully deleted.
+[2022-09-20 22:14:01] [ INFO ] [CityService:48] The city with id 2 has been successfully deleted.
+[2022-09-20 22:14:02] [ INFO ] [CategoryService:48] The category with id 4 has been successfully deleted.
+[2022-09-20 22:14:04] [ INFO ] [ProductService:88] The product with id 2 has been successfully deleted.
+[2022-09-20 22:14:05] [ INFO ] [CharacteristicService:48] The characteristic with id 1 has been successfully deleted.
+[2022-09-20 22:14:05] [ INFO ] [CharacteristicXProductService:48] The product characteristic with id 1 has been successfully deleted.
+[2022-09-20 22:14:06] [ INFO ] [ImageService:48] The image with id 1 has been successfully deleted.
+[2022-09-20 22:14:07] [ INFO ] [PolicyTypeService:48] The policy type with id 2 has been successfully deleted.
+[2022-09-20 22:14:08] [ INFO ] [PolicyService:48] The policy with id 1 has been successfully deleted.
+[2022-09-20 22:14:09] [ INFO ] [PolicyXProductService:48] The product policy with id 1 has been successfully deleted.
+[2022-09-20 22:14:09] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:14:09] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:14:10] [ ERROR] [GlobalExceptionHandler:16] Product id 2 does not correspond to any current booking.
+[2022-09-20 22:14:10] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-20 22:14:10] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-20 22:14:10] [ INFO ] [BookingService:95] The booking with id 1 has been successfully deleted.
+[2022-09-20 22:14:10] [ INFO ] [BookingService:95] The booking with id 2 has been successfully deleted.
+[2022-09-20 22:20:14] [ ERROR] [GlobalExceptionHandler:16] User id 2 does not correspond to any current booking.
+[2022-09-20 22:20:46] [ ERROR] [GlobalExceptionHandler:16] User id 1 does not correspond to any current booking.
+[2022-09-20 22:21:12] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:21:35] [ ERROR] [GlobalExceptionHandler:16] User id 2 does not correspond to any current booking.
+[2022-09-20 22:21:52] [ ERROR] [GlobalExceptionHandler:16] User id 2 does not correspond to any current booking.
+[2022-09-20 22:22:23] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:23:11] [ ERROR] [GlobalExceptionHandler:16] User id 4 does not correspond to any current booking.
+[2022-09-20 22:25:20] [ INFO ] [CountryService:48] The country with id 1 has been successfully deleted.
+[2022-09-20 22:25:21] [ INFO ] [CityService:48] The city with id 2 has been successfully deleted.
+[2022-09-20 22:25:22] [ INFO ] [CategoryService:48] The category with id 4 has been successfully deleted.
+[2022-09-20 22:25:23] [ INFO ] [ProductService:88] The product with id 2 has been successfully deleted.
+[2022-09-20 22:25:24] [ INFO ] [CharacteristicService:48] The characteristic with id 1 has been successfully deleted.
+[2022-09-20 22:25:25] [ INFO ] [CharacteristicXProductService:48] The product characteristic with id 1 has been successfully deleted.
+[2022-09-20 22:25:26] [ INFO ] [ImageService:48] The image with id 1 has been successfully deleted.
+[2022-09-20 22:25:27] [ INFO ] [PolicyTypeService:48] The policy type with id 2 has been successfully deleted.
+[2022-09-20 22:25:28] [ INFO ] [PolicyService:48] The policy with id 1 has been successfully deleted.
+[2022-09-20 22:25:28] [ INFO ] [PolicyXProductService:48] The product policy with id 1 has been successfully deleted.
+[2022-09-20 22:25:28] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:25:29] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:25:29] [ ERROR] [GlobalExceptionHandler:16] Product id 2 does not correspond to any current booking.
+[2022-09-20 22:25:29] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-20 22:25:29] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-20 22:25:29] [ INFO ] [BookingService:95] The booking with id 1 has been successfully deleted.
+[2022-09-20 22:25:29] [ INFO ] [BookingService:95] The booking with id 2 has been successfully deleted.
+[2022-09-20 22:28:02] [ INFO ] [CountryService:48] The country with id 1 has been successfully deleted.
+[2022-09-20 22:28:03] [ INFO ] [CityService:48] The city with id 2 has been successfully deleted.
+[2022-09-20 22:28:04] [ INFO ] [CategoryService:48] The category with id 4 has been successfully deleted.
+[2022-09-20 22:28:06] [ INFO ] [ProductService:88] The product with id 2 has been successfully deleted.
+[2022-09-20 22:28:07] [ INFO ] [CharacteristicService:48] The characteristic with id 1 has been successfully deleted.
+[2022-09-20 22:28:08] [ INFO ] [CharacteristicXProductService:48] The product characteristic with id 1 has been successfully deleted.
+[2022-09-20 22:28:09] [ INFO ] [ImageService:48] The image with id 1 has been successfully deleted.
+[2022-09-20 22:28:10] [ INFO ] [PolicyTypeService:48] The policy type with id 2 has been successfully deleted.
+[2022-09-20 22:28:11] [ INFO ] [PolicyService:48] The policy with id 1 has been successfully deleted.
+[2022-09-20 22:28:12] [ INFO ] [PolicyXProductService:48] The product policy with id 1 has been successfully deleted.
+[2022-09-20 22:28:13] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:28:13] [ INFO ] [BookingService:35] Booking successfully saved.
+[2022-09-20 22:28:13] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-20 22:28:13] [ INFO ] [BookingService:86] Booking successfully updated.
+[2022-09-20 22:28:14] [ INFO ] [BookingService:95] The booking with id 1 has been successfully deleted.
+[2022-09-20 22:28:14] [ INFO ] [BookingService:95] The booking with id 2 has been successfully deleted.
+>>>>>>> development
+[2022-09-21 22:13:53] [ ERROR] [GlobalExceptionHandler:28] could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement

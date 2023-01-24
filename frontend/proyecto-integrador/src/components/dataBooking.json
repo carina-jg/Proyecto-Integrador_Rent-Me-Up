@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "crimg": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
+        "category": "Departamentos",
+        "title": "Departamento modelo Lorem Ipsum",
+        "location": "Buenos Aires",
+        "description": "Departamento modelo Lorem Ipsum"
+    },
+    {
+        "id": 2,
+        "crimg": "https://images.unsplash.com/photo-1475087542963-13ab5e611954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": "Cabañas",
+        "title": "Cabaña modelo Lorem Ipsum",
+        "location": "Lima",
+        "description": "Cabaña modelo Lorem Ipsum"
+    },
+    {
+        "id": 3,
+        "crimg": "https://images.unsplash.com/photo-1566908829550-e6551b00979b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+        "category": "Mansiones",
+        "title": "Mansión modelo Lorem Ipsum",
+        "location": "CDMX",
+        "description": "Mansión modelo Lorem Ipsum"
+    },
+    {
+        "id": 4,
+        "crimg": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": "Casas",
+        "title": "Casa modelo Lorem Ipsum",
+        "location": "Cali",
+        "description": "Hotel modelo Lorem Ipsum"
+    },
+    {
+        "id": 5,
+        "crimg": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1080&q=80",
+        "category": "Departamentos",
+        "title": "Departamento modelo Lorem Ipsum Deluxe",
+        "location": "Sao Paulo",
+        "description": "Departamento modelo Lorem Ipsum Deluxe"
+    },
+    {
+        "id": 6,
+        "crimg": "https://images.unsplash.com/photo-1475087542963-13ab5e611954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": "Cabañas",
+        "title": "Cabaña modelo Lorem Ipsum Country",
+        "location": "Santiago",
+        "description": "Cabaña modelo Lorem Ipsum Country"
+    },
+    {
+        "id": 7,
+        "crimg": "https://images.unsplash.com/photo-1566908829550-e6551b00979b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+        "category": "Mansiones",
+        "title": "Mansión modelo Lorem Ipsum Deluxe Ultra",
+        "location": "Montevideo",
+        "description": "Mansión modelo Lorem Ipsum Deluxe Ultra"
+    },
+    {
+        "id": 8,
+        "crimg": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "category": "Casas",
+        "title": "Casa modelo Lorem Ipsum Carioca",
+        "location": "Brasilia",
+        "description": "Hotel modelo Lorem Carioca"
+    }
+]

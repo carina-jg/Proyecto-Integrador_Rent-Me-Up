@@ -1,0 +1,3753 @@
+{
+	"id": "fb751954-b003-4792-9db1-c10e6de12d62",
+	"name": "Rent-me-up",
+	"timestamp": "2022-09-21T01:28:14.328Z",
+	"collection_id": "18052401-d1ea63bc-1b48-48c2-8b77-c6ccd16d3b38",
+	"folder_id": 0,
+	"environment_id": "18052401-1877ab53-fc55-4bf4-a0aa-a462ffb5e1cd",
+	"totalPass": 185,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "42649caa-0de2-43c5-940f-691ce8ecf27c",
+			"name": "POST - new admin",
+			"url": "http://localhost:8080/auth/register",
+			"time": 566,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status should be \"Created\"": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Created\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				566
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status should be \"Created\"": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "d4f97f29-b278-4d2b-8066-aad9c9cf538d",
+			"name": "POST - admin already exists",
+			"url": "http://localhost:8080/auth/register",
+			"time": 15,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 400": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "85489998-2d7a-4d31-84ba-535048b1ec7e",
+			"name": "POST - admin login",
+			"url": "http://localhost:8080/auth/login",
+			"time": 295,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				295
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "34fc04bd-02e3-4a58-bcc6-923fb212997d",
+			"name": "POST - new client",
+			"url": "http://localhost:8080/auth/register",
+			"time": 176,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Status should be \"Created\"": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Created\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				176
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Status should be \"Created\"": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "114ab9e8-6428-4603-907d-0c3990ebcdd0",
+			"name": "POST - client login",
+			"url": "http://localhost:8080/auth/login",
+			"time": 143,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				143
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "206047a9-06fc-4d29-be0e-b2ced3fde3f0",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/countries/add",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1286dadc-45ca-46f4-910d-1adb445a238d",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/countries/add",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bbea0308-8be5-48c5-9a83-c1a2b9aef51c",
+			"name": "POST - client",
+			"url": "http://localhost:8080/countries/add",
+			"time": 32,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "71edde4c-6a6e-4403-96c5-83f38c4e9572",
+			"name": "GET",
+			"url": "http://localhost:8080/countries",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true,
+				"Validar paises": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar paises": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true,
+					"Validar paises": true
+				}
+			]
+		},
+		{
+			"id": "8503736e-52a7-464a-b13b-989510da891e",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/countries/update",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "20a028c8-873f-4b34-be19-ef1294c239cb",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/countries/update",
+			"time": 15,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "b3fa9b34-6781-407b-9194-3f8d85584d21",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/countries/delete/1",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				81
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "02202846-1fc3-46f3-9ded-0a9610f83d38",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/countries/delete/1",
+			"time": 21,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "d3c3158a-cc1f-4472-8fcf-d23bcf9c17f9",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/cities/add",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "92d7004d-0ae0-47f0-bd3c-186078d4dc45",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/cities/add",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "27a6a24c-2fd4-4036-a3ce-f820ee18770b",
+			"name": "POST - client",
+			"url": "http://localhost:8080/cities/add",
+			"time": 18,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "3a37cc2d-2ea0-4bb2-a506-6e1fd20ecb70",
+			"name": "GET",
+			"url": "http://localhost:8080/cities",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true,
+				"Validar ciudades": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar ciudades": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true,
+					"Validar ciudades": true
+				}
+			]
+		},
+		{
+			"id": "c58c76d0-2a6b-47fa-9101-e1bb64c3e863",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/cities/update",
+			"time": 43,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				43
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "c2fa8e52-5593-4772-a897-6cce2b88ee20",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/cities/update",
+			"time": 16,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "a8bb672b-8cc2-4455-a923-6d30a47ebf91",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/cities/delete/2",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "121aada9-03f6-4c99-981b-fca588d76e5f",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/cities/delete/1",
+			"time": 11,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "f9727b4f-0a6c-418d-901c-1ffda3ba0a08",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/categories/add",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4b9cbd94-891c-444b-ab81-7856ff60e0f0",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/categories/add",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ca8886d7-76e1-4560-8e5d-abf1d0b5c3c5",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/categories/add",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3a614894-02e9-4316-aba2-bf5f83a55751",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/categories/add",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a17997db-17e2-4a18-9215-426f0b71d120",
+			"name": "POST - client",
+			"url": "http://localhost:8080/categories/add",
+			"time": 13,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "8d7e7bae-d0cd-4f30-9aaf-c43ab493d6db",
+			"name": "GET",
+			"url": "http://localhost:8080/categories",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true,
+				"Validar categorias": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validar categorias": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true,
+					"Validar categorias": true
+				}
+			]
+		},
+		{
+			"id": "e05579a7-a080-4b36-87d6-7b53209629db",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/categories/update",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "12dbe25f-b3e9-4fc4-bed3-f0ef2f81f8d9",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/categories/update",
+			"time": 9,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "1e130310-b0ad-4ab5-9e49-1acb1d18d27f",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/categories/delete/4",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "28af1505-3751-4c62-a412-5eba23fca41f",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/categories/delete/3",
+			"time": 12,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "7a4a58e0-7c93-41d8-b1d3-40b02d8c29b8",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/products/add",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "146f89f3-f0fc-48e3-9436-389d45712ce8",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/products/add",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "627b37bd-43af-4a3c-9b35-3a7aa80066c3",
+			"name": "POST - client",
+			"url": "http://localhost:8080/products/add",
+			"time": 14,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "51105241-8ec8-49ef-8fe4-23a1dfe8eb2f",
+			"name": "GET",
+			"url": "http://localhost:8080/products",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "9fa93134-06a5-4be0-8b3b-22cee39164b7",
+			"name": "GET by id",
+			"url": "http://localhost:8080/products/1",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "fae8c3ae-aba5-4880-b37f-dcd429a157dc",
+			"name": "GET by city",
+			"url": "http://localhost:8080/products/city/1",
+			"time": 44,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				44
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "b0850067-3394-442d-94ce-1f68d3e69ac0",
+			"name": "GET by category",
+			"url": "http://localhost:8080/products/category/1",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "ef263c0e-2708-4967-83aa-4dbc2e1ffb46",
+			"name": "GET by city and dates",
+			"url": "http://localhost:8080/products/city-dates?city_id=1&checkInDate=2022-10-08&checkOutDate=2022-10-18",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6ca0a0ed-7bfa-4d80-aa34-37bae8aabe06",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/products/update",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				61
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "5d18c342-9916-4afd-8e08-1207d751bf48",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/products/update",
+			"time": 19,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "99a68136-7d0c-4b25-a6c6-87f1a365aaa7",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/products/delete/2",
+			"time": 31,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				31
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "33a8b52a-1fd5-4f9a-abed-c7f4936bae9a",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/products/delete/1",
+			"time": 13,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "32d071b3-07e4-47ff-8d37-d72a27879bcd",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/characteristics/add",
+			"time": 25,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				25
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2a04e1e2-ba03-439f-85cd-4bda8febb2f3",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/characteristics/add",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "91c1faa4-73c3-4155-8b1a-09bbd900265f",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/characteristics/add",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bb52b98f-b708-4c69-b777-91435e270bac",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/characteristics/add",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b6824929-b0c7-4843-bd82-bcfb8ab6e9b7",
+			"name": "POST - client",
+			"url": "http://localhost:8080/characteristics/add",
+			"time": 13,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "9276204d-a3a1-463e-820e-917ed7989dcd",
+			"name": "GET",
+			"url": "http://localhost:8080/characteristics",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "87295dbf-785a-434e-877c-a50f831825aa",
+			"name": "GET by id",
+			"url": "http://localhost:8080/characteristics/2",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "1b58945b-ffcb-4050-ab37-b6b59f4d28a6",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/characteristics/update",
+			"time": 59,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				59
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "4cb82e2b-56d5-4924-b46b-d5f29fe8e3b7",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/characteristics/update",
+			"time": 15,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "c34d17c1-b428-4605-bf5f-2e6b5a01cc7e",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/characteristics/delete/1",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "f66639c8-63ef-4202-92c6-a5be2c8dfe93",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/characteristics/delete/2",
+			"time": 13,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "13356365-9cf9-4e73-b056-82f414b55bf1",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/product-characteristics/add",
+			"time": 62,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				62
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3a3d54f0-e97c-4f02-b77d-1f278963df23",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/product-characteristics/add",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bba3ec4b-3162-4283-9191-c79e0eec9420",
+			"name": "POST - client",
+			"url": "http://localhost:8080/product-characteristics/add",
+			"time": 11,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "3dfa1e0c-bf41-4975-8d8d-9b56274dc57c",
+			"name": "GET",
+			"url": "http://localhost:8080/product-characteristics",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "38bf99c6-8d49-4f56-83c2-e07299f784fa",
+			"name": "GET by id",
+			"url": "http://localhost:8080/product-characteristics/1",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "b49669f7-0953-406a-84a0-6edb5279f103",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/product-characteristics/update",
+			"time": 35,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				35
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "7c44041a-b0e5-4f32-821e-e640950b7b6a",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/product-characteristics/update",
+			"time": 13,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "58e4bc55-9dac-4853-82f4-e2dadf2dba0f",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/product-characteristics/delete/1",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "c4d04acc-aeaf-4645-a7b9-cbc7ba03546a",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/product-characteristics/delete/2",
+			"time": 15,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "da1bb7a9-3987-4e35-ae2c-4042123ff607",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/images/add",
+			"time": 26,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				26
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "41d972e0-c311-4287-9848-25f1c1cdf940",
+			"name": "POST - client",
+			"url": "http://localhost:8080/images/add",
+			"time": 17,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "4af71188-005f-4c6e-bc3b-91d38c472938",
+			"name": "GET",
+			"url": "http://localhost:8080/images",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "6c3a76c1-05a5-4cd8-98d9-dac8bf00841c",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/images/update",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "875f4b07-afc0-45f2-89bd-a85844906ca5",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/images/update",
+			"time": 10,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "0c9b5df0-419f-4b21-8140-29c62fd0c5c9",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/images/delete/1",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "704e2e76-875a-44cf-bdae-3c4845d84280",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/images/delete/1",
+			"time": 13,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "66b4768c-257b-4456-88c7-ddc0135701f1",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/policy-types/add",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2facce0d-2d66-4bbe-a3ff-b63dc15b776c",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/policy-types/add",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "34079bbc-bd09-4a6a-86d6-ae9b656bc87f",
+			"name": "POST - client",
+			"url": "http://localhost:8080/policy-types/add",
+			"time": 10,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "4ac34fe3-f032-461a-8168-127ba0392c37",
+			"name": "GET",
+			"url": "http://localhost:8080/policy-types",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "11735c3c-19f6-4afc-8fb3-65f94670199e",
+			"name": "GET by id",
+			"url": "http://localhost:8080/policy-types/1",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "0210c3d1-df39-41f6-b748-fa623c713502",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/policy-types/update",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "424d22ad-1ffd-4377-9d74-955c081a6df0",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/policy-types/update",
+			"time": 12,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "fd7ab908-97c5-4d91-b263-3c05a4bf7c2e",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/policy-types/delete/2",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "af8e0219-2a11-4c42-badc-9f82a3c4ac70",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/policy-types/delete/1",
+			"time": 9,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "9ff451ec-c2bc-497d-af7c-7e0867318bac",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/policies/add",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "381e83cd-bcb0-44dd-a195-16c3d49e46c0",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/policies/add",
+			"time": 18,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				18
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "33949b80-c9a1-406f-8b85-4c6ac7a843c1",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/policies/add",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "be6fc3ed-cb63-406b-9f68-fee4033fc6a3",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/policies/add",
+			"time": 19,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				19
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "010ec785-dca5-492d-b484-27a9bbfad3e5",
+			"name": "POST - client",
+			"url": "http://localhost:8080/policies/add",
+			"time": 11,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "c8a823b4-0b6e-4e30-a543-120f4ecd9103",
+			"name": "GET",
+			"url": "http://localhost:8080/policies",
+			"time": 21,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				21
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "44af5a72-eeca-4aac-9e4b-3996a1c60db6",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/policies/update",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				61
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "404a8091-69e7-4f79-9e5a-af407ec674e6",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/policies/update",
+			"time": 10,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				10
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "bd98cf81-0208-44ae-add7-2605a96d10df",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/policies/delete/1",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				61
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "d398df66-e402-4c98-a95c-faf00c81e89f",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/policies/delete/2",
+			"time": 9,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "9cb98578-bc66-40b5-8333-77b3a5f38ab2",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/product-polices/add",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f127b9df-b123-4163-a87e-8633cf2ff6b8",
+			"name": "POST - client",
+			"url": "http://localhost:8080/product-polices/add",
+			"time": 12,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				12
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "27eb8e93-5a2b-4efa-b61d-e27d75a0b2bc",
+			"name": "GET",
+			"url": "http://localhost:8080/product-polices",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "c5af6dc2-eb72-414f-882b-5bc4d6925c25",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/product-polices/update",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "18b725e0-30fd-4605-b62c-18f0e54cabf4",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/product-polices/update",
+			"time": 11,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "e1ff8941-107e-4c16-9b11-e6fa07e8b412",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/product-polices/delete/1",
+			"time": 20,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				20
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "6dee2cb0-d813-4197-8af9-6601cb4dc92b",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/product-polices/delete/4",
+			"time": 11,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code is 403": true,
+				"Status should be \"Forbidden\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"Forbidden\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				11
+			],
+			"allTests": [
+				{
+					"Status code is 403": true,
+					"Status should be \"Forbidden\"": true
+				}
+			]
+		},
+		{
+			"id": "503505e4-a87a-4685-ba92-c2b067c120f1",
+			"name": "POST - admin",
+			"url": "http://localhost:8080/bookings/add",
+			"time": 36,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				36
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6e352467-a764-43d4-87e3-30e67f7e4c8a",
+			"name": "POST - client",
+			"url": "http://localhost:8080/bookings/add",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e899dbe7-f461-472f-b384-7770f27a15f5",
+			"name": "GET - admin",
+			"url": "http://localhost:8080/bookings",
+			"time": 27,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				27
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "a01de46f-dc2b-4b0e-a048-ea22223eccc0",
+			"name": "GET by product id - admin",
+			"url": "http://localhost:8080/bookings/product/1",
+			"time": 70,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				70
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "9d37c09c-7717-4a0c-8181-f5f14a0f39f3",
+			"name": "GET by user id - admin",
+			"url": "http://localhost:8080/bookings/user/1",
+			"time": 45,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				45
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "80c161a7-1632-47dc-9123-b195135767b3",
+			"name": "PUT - admin",
+			"url": "http://localhost:8080/bookings/update",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "5caf8288-0d04-49f9-9b32-583fbf445cc9",
+			"name": "PUT - client",
+			"url": "http://localhost:8080/bookings/update",
+			"time": 30,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Status should be \"OK\"": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status should be \"OK\"": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				30
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Status should be \"OK\"": true
+				}
+			]
+		},
+		{
+			"id": "54f6debf-c320-4aec-89cd-590005d1a161",
+			"name": "DELETE - admin",
+			"url": "http://localhost:8080/bookings/delete/1",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "21944387-5dfb-461d-b427-b318b1ea44c0",
+			"name": "DELETE - client",
+			"url": "http://localhost:8080/bookings/delete/2",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4002,
+	"collection": {
+		"requests": [
+			{
+				"id": "42649caa-0de2-43c5-940f-691ce8ecf27c",
+				"method": "POST"
+			},
+			{
+				"id": "d4f97f29-b278-4d2b-8066-aad9c9cf538d",
+				"method": "POST"
+			},
+			{
+				"id": "85489998-2d7a-4d31-84ba-535048b1ec7e",
+				"method": "POST"
+			},
+			{
+				"id": "34fc04bd-02e3-4a58-bcc6-923fb212997d",
+				"method": "POST"
+			},
+			{
+				"id": "114ab9e8-6428-4603-907d-0c3990ebcdd0",
+				"method": "POST"
+			},
+			{
+				"id": "206047a9-06fc-4d29-be0e-b2ced3fde3f0",
+				"method": "POST"
+			},
+			{
+				"id": "1286dadc-45ca-46f4-910d-1adb445a238d",
+				"method": "POST"
+			},
+			{
+				"id": "bbea0308-8be5-48c5-9a83-c1a2b9aef51c",
+				"method": "POST"
+			},
+			{
+				"id": "71edde4c-6a6e-4403-96c5-83f38c4e9572",
+				"method": "GET"
+			},
+			{
+				"id": "8503736e-52a7-464a-b13b-989510da891e",
+				"method": "PUT"
+			},
+			{
+				"id": "20a028c8-873f-4b34-be19-ef1294c239cb",
+				"method": "PUT"
+			},
+			{
+				"id": "b3fa9b34-6781-407b-9194-3f8d85584d21",
+				"method": "DELETE"
+			},
+			{
+				"id": "02202846-1fc3-46f3-9ded-0a9610f83d38",
+				"method": "DELETE"
+			},
+			{
+				"id": "d3c3158a-cc1f-4472-8fcf-d23bcf9c17f9",
+				"method": "POST"
+			},
+			{
+				"id": "92d7004d-0ae0-47f0-bd3c-186078d4dc45",
+				"method": "POST"
+			},
+			{
+				"id": "27a6a24c-2fd4-4036-a3ce-f820ee18770b",
+				"method": "POST"
+			},
+			{
+				"id": "3a37cc2d-2ea0-4bb2-a506-6e1fd20ecb70",
+				"method": "GET"
+			},
+			{
+				"id": "c58c76d0-2a6b-47fa-9101-e1bb64c3e863",
+				"method": "PUT"
+			},
+			{
+				"id": "c2fa8e52-5593-4772-a897-6cce2b88ee20",
+				"method": "PUT"
+			},
+			{
+				"id": "a8bb672b-8cc2-4455-a923-6d30a47ebf91",
+				"method": "DELETE"
+			},
+			{
+				"id": "121aada9-03f6-4c99-981b-fca588d76e5f",
+				"method": "DELETE"
+			},
+			{
+				"id": "f9727b4f-0a6c-418d-901c-1ffda3ba0a08",
+				"method": "POST"
+			},
+			{
+				"id": "4b9cbd94-891c-444b-ab81-7856ff60e0f0",
+				"method": "POST"
+			},
+			{
+				"id": "ca8886d7-76e1-4560-8e5d-abf1d0b5c3c5",
+				"method": "POST"
+			},
+			{
+				"id": "3a614894-02e9-4316-aba2-bf5f83a55751",
+				"method": "POST"
+			},
+			{
+				"id": "a17997db-17e2-4a18-9215-426f0b71d120",
+				"method": "POST"
+			},
+			{
+				"id": "8d7e7bae-d0cd-4f30-9aaf-c43ab493d6db",
+				"method": "GET"
+			},
+			{
+				"id": "e05579a7-a080-4b36-87d6-7b53209629db",
+				"method": "PUT"
+			},
+			{
+				"id": "12dbe25f-b3e9-4fc4-bed3-f0ef2f81f8d9",
+				"method": "PUT"
+			},
+			{
+				"id": "1e130310-b0ad-4ab5-9e49-1acb1d18d27f",
+				"method": "DELETE"
+			},
+			{
+				"id": "28af1505-3751-4c62-a412-5eba23fca41f",
+				"method": "DELETE"
+			},
+			{
+				"id": "7a4a58e0-7c93-41d8-b1d3-40b02d8c29b8",
+				"method": "POST"
+			},
+			{
+				"id": "146f89f3-f0fc-48e3-9436-389d45712ce8",
+				"method": "POST"
+			},
+			{
+				"id": "627b37bd-43af-4a3c-9b35-3a7aa80066c3",
+				"method": "POST"
+			},
+			{
+				"id": "51105241-8ec8-49ef-8fe4-23a1dfe8eb2f",
+				"method": "GET"
+			},
+			{
+				"id": "9fa93134-06a5-4be0-8b3b-22cee39164b7",
+				"method": "GET"
+			},
+			{
+				"id": "fae8c3ae-aba5-4880-b37f-dcd429a157dc",
+				"method": "GET"
+			},
+			{
+				"id": "b0850067-3394-442d-94ce-1f68d3e69ac0",
+				"method": "GET"
+			},
+			{
+				"id": "ef263c0e-2708-4967-83aa-4dbc2e1ffb46",
+				"method": "GET"
+			},
+			{
+				"id": "6ca0a0ed-7bfa-4d80-aa34-37bae8aabe06",
+				"method": "PUT"
+			},
+			{
+				"id": "5d18c342-9916-4afd-8e08-1207d751bf48",
+				"method": "PUT"
+			},
+			{
+				"id": "99a68136-7d0c-4b25-a6c6-87f1a365aaa7",
+				"method": "DELETE"
+			},
+			{
+				"id": "33a8b52a-1fd5-4f9a-abed-c7f4936bae9a",
+				"method": "DELETE"
+			},
+			{
+				"id": "32d071b3-07e4-47ff-8d37-d72a27879bcd",
+				"method": "POST"
+			},
+			{
+				"id": "2a04e1e2-ba03-439f-85cd-4bda8febb2f3",
+				"method": "POST"
+			},
+			{
+				"id": "91c1faa4-73c3-4155-8b1a-09bbd900265f",
+				"method": "POST"
+			},
+			{
+				"id": "bb52b98f-b708-4c69-b777-91435e270bac",
+				"method": "POST"
+			},
+			{
+				"id": "b6824929-b0c7-4843-bd82-bcfb8ab6e9b7",
+				"method": "POST"
+			},
+			{
+				"id": "9276204d-a3a1-463e-820e-917ed7989dcd",
+				"method": "GET"
+			},
+			{
+				"id": "87295dbf-785a-434e-877c-a50f831825aa",
+				"method": "GET"
+			},
+			{
+				"id": "1b58945b-ffcb-4050-ab37-b6b59f4d28a6",
+				"method": "PUT"
+			},
+			{
+				"id": "4cb82e2b-56d5-4924-b46b-d5f29fe8e3b7",
+				"method": "PUT"
+			},
+			{
+				"id": "c34d17c1-b428-4605-bf5f-2e6b5a01cc7e",
+				"method": "DELETE"
+			},
+			{
+				"id": "f66639c8-63ef-4202-92c6-a5be2c8dfe93",
+				"method": "DELETE"
+			},
+			{
+				"id": "13356365-9cf9-4e73-b056-82f414b55bf1",
+				"method": "POST"
+			},
+			{
+				"id": "3a3d54f0-e97c-4f02-b77d-1f278963df23",
+				"method": "POST"
+			},
+			{
+				"id": "bba3ec4b-3162-4283-9191-c79e0eec9420",
+				"method": "POST"
+			},
+			{
+				"id": "3dfa1e0c-bf41-4975-8d8d-9b56274dc57c",
+				"method": "GET"
+			},
+			{
+				"id": "38bf99c6-8d49-4f56-83c2-e07299f784fa",
+				"method": "GET"
+			},
+			{
+				"id": "b49669f7-0953-406a-84a0-6edb5279f103",
+				"method": "PUT"
+			},
+			{
+				"id": "7c44041a-b0e5-4f32-821e-e640950b7b6a",
+				"method": "PUT"
+			},
+			{
+				"id": "58e4bc55-9dac-4853-82f4-e2dadf2dba0f",
+				"method": "DELETE"
+			},
+			{
+				"id": "c4d04acc-aeaf-4645-a7b9-cbc7ba03546a",
+				"method": "DELETE"
+			},
+			{
+				"id": "da1bb7a9-3987-4e35-ae2c-4042123ff607",
+				"method": "POST"
+			},
+			{
+				"id": "41d972e0-c311-4287-9848-25f1c1cdf940",
+				"method": "POST"
+			},
+			{
+				"id": "4af71188-005f-4c6e-bc3b-91d38c472938",
+				"method": "GET"
+			},
+			{
+				"id": "6c3a76c1-05a5-4cd8-98d9-dac8bf00841c",
+				"method": "PUT"
+			},
+			{
+				"id": "875f4b07-afc0-45f2-89bd-a85844906ca5",
+				"method": "PUT"
+			},
+			{
+				"id": "0c9b5df0-419f-4b21-8140-29c62fd0c5c9",
+				"method": "DELETE"
+			},
+			{
+				"id": "704e2e76-875a-44cf-bdae-3c4845d84280",
+				"method": "DELETE"
+			},
+			{
+				"id": "66b4768c-257b-4456-88c7-ddc0135701f1",
+				"method": "POST"
+			},
+			{
+				"id": "2facce0d-2d66-4bbe-a3ff-b63dc15b776c",
+				"method": "POST"
+			},
+			{
+				"id": "34079bbc-bd09-4a6a-86d6-ae9b656bc87f",
+				"method": "POST"
+			},
+			{
+				"id": "4ac34fe3-f032-461a-8168-127ba0392c37",
+				"method": "GET"
+			},
+			{
+				"id": "11735c3c-19f6-4afc-8fb3-65f94670199e",
+				"method": "GET"
+			},
+			{
+				"id": "0210c3d1-df39-41f6-b748-fa623c713502",
+				"method": "PUT"
+			},
+			{
+				"id": "424d22ad-1ffd-4377-9d74-955c081a6df0",
+				"method": "PUT"
+			},
+			{
+				"id": "fd7ab908-97c5-4d91-b263-3c05a4bf7c2e",
+				"method": "DELETE"
+			},
+			{
+				"id": "af8e0219-2a11-4c42-badc-9f82a3c4ac70",
+				"method": "DELETE"
+			},
+			{
+				"id": "9ff451ec-c2bc-497d-af7c-7e0867318bac",
+				"method": "POST"
+			},
+			{
+				"id": "381e83cd-bcb0-44dd-a195-16c3d49e46c0",
+				"method": "POST"
+			},
+			{
+				"id": "33949b80-c9a1-406f-8b85-4c6ac7a843c1",
+				"method": "POST"
+			},
+			{
+				"id": "be6fc3ed-cb63-406b-9f68-fee4033fc6a3",
+				"method": "POST"
+			},
+			{
+				"id": "010ec785-dca5-492d-b484-27a9bbfad3e5",
+				"method": "POST"
+			},
+			{
+				"id": "c8a823b4-0b6e-4e30-a543-120f4ecd9103",
+				"method": "GET"
+			},
+			{
+				"id": "44af5a72-eeca-4aac-9e4b-3996a1c60db6",
+				"method": "PUT"
+			},
+			{
+				"id": "404a8091-69e7-4f79-9e5a-af407ec674e6",
+				"method": "PUT"
+			},
+			{
+				"id": "bd98cf81-0208-44ae-add7-2605a96d10df",
+				"method": "DELETE"
+			},
+			{
+				"id": "d398df66-e402-4c98-a95c-faf00c81e89f",
+				"method": "DELETE"
+			},
+			{
+				"id": "9cb98578-bc66-40b5-8333-77b3a5f38ab2",
+				"method": "POST"
+			},
+			{
+				"id": "f127b9df-b123-4163-a87e-8633cf2ff6b8",
+				"method": "POST"
+			},
+			{
+				"id": "27eb8e93-5a2b-4efa-b61d-e27d75a0b2bc",
+				"method": "GET"
+			},
+			{
+				"id": "c5af6dc2-eb72-414f-882b-5bc4d6925c25",
+				"method": "PUT"
+			},
+			{
+				"id": "18b725e0-30fd-4605-b62c-18f0e54cabf4",
+				"method": "PUT"
+			},
+			{
+				"id": "e1ff8941-107e-4c16-9b11-e6fa07e8b412",
+				"method": "DELETE"
+			},
+			{
+				"id": "6dee2cb0-d813-4197-8af9-6601cb4dc92b",
+				"method": "DELETE"
+			},
+			{
+				"id": "503505e4-a87a-4685-ba92-c2b067c120f1",
+				"method": "POST"
+			},
+			{
+				"id": "6e352467-a764-43d4-87e3-30e67f7e4c8a",
+				"method": "POST"
+			},
+			{
+				"id": "e899dbe7-f461-472f-b384-7770f27a15f5",
+				"method": "GET"
+			},
+			{
+				"id": "a01de46f-dc2b-4b0e-a048-ea22223eccc0",
+				"method": "GET"
+			},
+			{
+				"id": "9d37c09c-7717-4a0c-8181-f5f14a0f39f3",
+				"method": "GET"
+			},
+			{
+				"id": "80c161a7-1632-47dc-9123-b195135767b3",
+				"method": "PUT"
+			},
+			{
+				"id": "5caf8288-0d04-49f9-9b32-583fbf445cc9",
+				"method": "PUT"
+			},
+			{
+				"id": "54f6debf-c320-4aec-89cd-590005d1a161",
+				"method": "DELETE"
+			},
+			{
+				"id": "21944387-5dfb-461d-b427-b318b1ea44c0",
+				"method": "DELETE"
+			}
+		]
+	}
+}
